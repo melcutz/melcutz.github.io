@@ -38,21 +38,21 @@
         title: "Director, AI Platform",
         company: "ServiceNow",
         description: "Leading AI platform development for enterprise solutions, leveraging 15+ years of ML production experience.",
-        tags: ["AI/ML", "Python", "Leadership"]
+        tags: ["AI/ML", "AI Agents","PaaS","Data", "Leadership"]
       },
       {
         year: "2019",
         title: "ML/AI Engineering Senior Manager",
         company: "Accenture AI",
         description: "Managed ML/AI engineering teams delivering innovative solutions for enterprise clients.",
-        tags: ["ML", "AI", "Management"]
+        tags: ["ML", "AI","Data", "Professional Services"]
       },
       {
         year: "2018",
         title: "VP of Data Science and Engineering",
         company: "G2 Web Services",
         description: "Led data science and engineering teams building scalable data solutions.",
-        tags: ["Data Science", "Engineering", "Leadership"]
+        tags: ["Data Science","ML/AI", "Engineering", "Leadership","Fintech"]
       },
       {
           year: "2016",
@@ -66,7 +66,7 @@
           title: "Principal Lead Software Engineering",
           company: "Atigeo Corporation",
           description: "Led three data science and engineering teams: Modeling/Predictive Analytics, Text Analytics, and Platform Analytics.",
-          tags: ["Engineering", "Data Science", "Team Leadership"]
+          tags: ["Engineering", "Data Science","Big Data","ML/AI", "Leadership"]
       },
       {
           year: "2013",
@@ -80,7 +80,7 @@
           title: "Senior Data Scientist",
           company: "Atigeo Corporation",
           description: "Prototyped and implemented analytics capabilities for xPatterns platform including web crawling and text analysis.",
-          tags: ["Data Science", "Analytics", "NLP"]
+          tags: ["Data Science", "Analytics", "ML","NLP"]
       }
     ];
 
@@ -164,7 +164,7 @@
                 FOCUS
               </div>
               <div style={{display: "flex", flexWrap: "wrap", gap: "0.5rem"}}>
-                {["AI/ML", "Python", "NLP", "Deep Learning", "Cloud"].map((tag) => (
+                {["AI/ML", "Python", "NLP", "Deep Learning", "Agentic AI","Knowledge Graphs","Generative AI","PaaS","Cloud","Data","Engineering","Leadership"].map((tag) => (
                   <span key={tag} style={{
                     padding: "0.3rem 0.7rem",
                     background: colors.grey + "20",
@@ -219,6 +219,7 @@
               </div>
               
               <div style={{display: "flex", gap: "0.7rem"}}>
+                <div>
                 {work.tags.map((tag) => (
                   <span key={tag} style={{
                     padding: "0.3rem 0.8rem",
@@ -230,7 +231,8 @@
                     whiteSpace: "wrap"
                   }}>{tag}</span>
                 ))}
-              </div>
+                </div>
+              </div>  
             </div>
           ))}
         </section>
